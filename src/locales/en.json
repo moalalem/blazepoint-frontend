@@ -1,0 +1,332 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "partners": "Partners",
+    "clients": "Clients",
+    "contact": "Contact",
+    "cta": "Get Started"
+  },
+  "hero": {
+    "slides": [
+      {
+        "id": 1,
+        "title": "Since 2011...",
+        "titleHighlight": "Building Digital Success",
+        "subtitle": "14+ Years | 250+ Projects | 100+ Clients | ISO 27001 Certified",
+        "ctaPrimary": "Start Free Now",
+        "ctaSecondary": "Learn About Us",
+        "ctaPrimaryLink": "/contact",
+        "ctaSecondaryLink": "/about",
+        "image": "/images/hero/slide-1.jpg",
+        "emoji": "🚀",
+        "color": "linear-gradient(135deg, #3b82f6 0%, #6366f1 50%, #7c3aed 100%)"
+      },
+      {
+        "id": 2,
+        "title": "Turn Manual Work",
+        "titleHighlight": "Into Smart Automation",
+        "subtitle": "Save 40% of your team's time with AI-powered solutions",
+        "ctaPrimary": "Discover More",
+        "ctaSecondary": "Contact Us",
+        "ctaPrimaryLink": "/services",
+        "ctaSecondaryLink": "/contact",
+        "image": "/images/hero/slide-2.jpg",
+        "emoji": "🤖",
+        "color": "linear-gradient(135deg, #60a5fa 0%, #818cf8 50%, #a78bfa 100%)"
+      },
+      {
+        "id": 3,
+        "title": "Your Network is Safe...",
+        "titleHighlight": "Even in the Toughest Attacks",
+        "subtitle": "Advanced ISO 27001 protection for your business and data",
+        "ctaPrimary": "Request Consultation",
+        "ctaSecondary": "Learn About Us",
+        "ctaPrimaryLink": "/contact",
+        "ctaSecondaryLink": "/about",
+        "image": "/images/hero/slide-3.jpg",
+        "emoji": "🛡️",
+        "color": "linear-gradient(135deg, #2563eb 0%, #4f46e5 50%, #7c3aed 100%)"
+      },
+      {
+        "id": 4,
+        "title": "Smart Marketing...",
+        "titleHighlight": "More Clients, Higher Sales",
+        "subtitle": "Digital strategies that deliver measurable results",
+        "ctaPrimary": "Start Now",
+        "ctaSecondary": "Contact Us",
+        "ctaPrimaryLink": "/contact",
+        "ctaSecondaryLink": "/contact",
+        "image": "/images/hero/slide-4.jpg",
+        "emoji": "🎨",
+        "color": "linear-gradient(135deg, #3b82f6 0%, #7c3aed 50%, #a855f7 100%)"
+      }
+    ]
+  },
+  "stats": {
+    "experience": "Years Experience",
+    "clients": "Happy Clients",
+    "projects": "Projects Completed",
+    "partners": "Strategic Partners"
+  },
+  "features": {
+    "title": "Why Choose Us?",
+    "subtitle": "We offer you a range of features that make us the best choice for you",
+    "items": [
+      { "icon": "⚡", "title": "Lightning Speed", "description": "High performance and fast response at all times" },
+      { "icon": "🔒", "title": "Complete Security", "description": "Full protection of your data with the highest security standards" },
+      { "icon": "💎", "title": "High Quality", "description": "Professional services with global standards and guaranteed quality" },
+      { "icon": "🎯", "title": "Precision", "description": "Accurate results that meet and exceed your expectations" }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We offer a comprehensive range of technical and creative services to grow your business",
+    "learnMore": "Learn More",
+    "items": [
+      {
+        "icon": "🤖",
+        "title": "AI-Powered Tech Services",
+        "description": "Transforming traditional tech services into smart, automated solutions to increase efficiency and reduce costs",
+        "features": ["Process Automation", "Smart Solutions", "Better UX"]
+      },
+      {
+        "icon": "🛡️",
+        "title": "Cybersecurity & Communications",
+        "description": "Comprehensive cybersecurity solutions, network protection, penetration testing, and identity management",
+        "features": ["Network Protection", "Penetration Testing", "Incident Response"]
+      },
+      {
+        "icon": "🎨",
+        "title": "Digital Marketing & Creative Solutions",
+        "description": "Website design, SEO, graphic design, and social media management to grow your brand",
+        "features": ["Web Design", "SEO Optimization", "Social Media"]
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Our Portfolio",
+    "subtitle": "Samples of our successful projects across various sectors",
+    "viewProject": "View Project",
+    "categories": {
+      "all": "All",
+      "tech": "Tech Solutions",
+      "apps": "Applications",
+      "security": "Cybersecurity",
+      "web": "Web Development",
+      "ecommerce": "E-commerce"
+    },
+    "items": [
+      { "title": "Odoo ERP System", "category": "Tech Solutions", "categoryKey": "tech", "description": "Implemented a complete Odoo ERP system for a multinational company", "image": "💼" },
+      { "title": "Fintech App", "category": "Applications", "categoryKey": "apps", "description": "Developed a mobile app for a leading Fintech company in the region", "image": "📱" },
+      { "title": "Government Institution Network Protection", "category": "Cybersecurity", "categoryKey": "security", "description": "Secured a large government institution network according to ISO 27001 standards", "image": "🛡️" },
+      { "title": "King Abdulaziz Public Library Website", "category": "Web Development", "categoryKey": "web", "description": "Developed the official website for King Abdulaziz Public Library", "image": "📚" },
+      { "title": "KitchenPark E-commerce Store", "category": "E-commerce", "categoryKey": "ecommerce", "description": "Built a complete e-commerce store for KitchenPark with payment system", "image": "🛒" },
+      { "title": "Unified Communications System", "category": "Tech Solutions", "categoryKey": "tech", "description": "Implemented a unified communications system for a large multi-branch enterprise", "image": "📞" }
+    ]
+  },
+  "partners": {
+    "title": "Strategic Partnership",
+    "subtitle": "We are proud of our partnerships with the best global companies to deliver integrated tech solutions"
+  },
+  "clients": {
+    "title": "Our Clients - Success Partners",
+    "subtitle": "We are proud of our clients' trust, and we consider every client a partner in the journey of success",
+    "more": "And",
+    "moreClients": "more clients trust us"
+  },
+  "testimonialsPage": {
+    "title": "Our Clients' Testimonials",
+    "subtitle": "What our clients say about our services",
+    "items": [
+      { "name": "Saad ALfahad", "position": "CEO - XYZ Corp", "message": "Blazepoint is the ultimate solution provider for all our business needs. Their team is skilled, professional, and always delivers on time.", "rating": 5, "avatar": "👨‍💼" },
+      { "name": "Norah AL Naseer", "position": "CEO - ABC Inc", "message": "We partnered with Blazepoint for developing our e-commerce website, and the results have been phenomenal.", "rating": 5, "avatar": "👩‍💼" },
+      { "name": "Mohammed Saleh", "position": "Customer Service Manager - First Dimension", "message": "Blazepoint has enhanced the quality of customer service in our organization through the implementation of a customer service management system.", "rating": 5, "avatar": "👨‍💻" },
+      { "name": "Mohammed Al-Otaibi", "position": "CEO - Tech Company", "message": "BlazePoint team provided us with integrated tech solutions that helped grow our business significantly.", "rating": 5, "avatar": "👨‍💼" },
+      { "name": "Sarah Al-Ahmadi", "position": "Marketing Manager - Afaq", "message": "The digital marketing services from BlazePoint doubled our sales within 6 months.", "rating": 5, "avatar": "👩‍💼" },
+      { "name": "Reem Al-Salem", "position": "Operations Manager - E-commerce", "message": "The website designed by BlazePoint significantly boosted our sales.", "rating": 5, "avatar": "👩‍💻" }
+    ]
+  },
+  "pricing": {
+    "title": "Our Plans",
+    "subtitle": "Choose the perfect plan for your business",
+    "popular": "Most Popular",
+    "perMonth": "/ month",
+    "cta": "Get Started",
+    "plans": [
+      {
+        "name": "Basic Plan",
+        "price": "999",
+        "currency": "SAR",
+        "description": "Perfect for small projects",
+        "popular": false,
+        "features": ["Portfolio website (5 pages)", "Responsive design", "3 months technical support", "SSL Certificate", "1 year hosting"]
+      },
+      {
+        "name": "Professional Plan",
+        "price": "2499",
+        "currency": "SAR",
+        "description": "Best for medium businesses",
+        "popular": true,
+        "features": ["Full website (15 pages)", "Custom design", "1 year technical support", "SEO optimization", "SSL Certificate", "1 year hosting", "Admin panel"]
+      },
+      {
+        "name": "Enterprise Plan",
+        "price": "4999",
+        "currency": "SAR",
+        "description": "For large companies and enterprises",
+        "popular": false,
+        "features": ["Unlimited website", "Fully custom design", "2 years technical support", "Advanced SEO", "SSL Certificate", "2 years hosting", "Full admin panel", "Systems integration"]
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Articles and news from BlazePoint",
+    "readMore": "Read More",
+    "items": [
+      { "title": "How to Protect Your Business from Cyber Attacks in 2026?", "excerpt": "A comprehensive guide to the most important cybersecurity strategies.", "category": "Cybersecurity", "categoryKey": "security", "date": "September 20, 2026", "author": "BlazePoint Team", "image": "🛡️", "color": "linear-gradient(135deg, #3b82f6, #7c3aed)" },
+      { "title": "AI in Business: 5 Practical Applications", "excerpt": "Discover how AI can improve your company's efficiency and reduce costs.", "category": "Artificial Intelligence", "categoryKey": "ai", "date": "September 15, 2026", "author": "BlazePoint Team", "image": "🤖", "color": "linear-gradient(135deg, #60a5fa, #a78bfa)" },
+      { "title": "The Importance of SEO for Your Business", "excerpt": "Learn the most important strategies to improve your website's visibility.", "category": "Digital Marketing", "categoryKey": "marketing", "date": "September 10, 2026", "author": "BlazePoint Team", "image": "📈", "color": "linear-gradient(135deg, #2563eb, #6366f1)" },
+      { "title": "How to Choose the Right ERP System for Your Business?", "excerpt": "A practical guide to choosing the ERP system that suits your business needs.", "category": "Tech Solutions", "categoryKey": "tech", "date": "September 5, 2026", "author": "BlazePoint Team", "image": "💼", "color": "linear-gradient(135deg, #4f46e5, #7c3aed)" },
+      { "title": "5 Tips for Building a Strong Brand Identity", "excerpt": "How to build a unique visual identity that reflects your company values.", "category": "Design", "categoryKey": "design", "date": "September 1, 2026", "author": "BlazePoint Team", "image": "🎨", "color": "linear-gradient(135deg, #6366f1, #a855f7)" },
+      { "title": "The Future of Cloud Computing in Saudi Arabia", "excerpt": "A look at the evolution of cloud computing in the Kingdom.", "category": "Tech Solutions", "categoryKey": "tech", "date": "August 28, 2026", "author": "BlazePoint Team", "image": "☁️", "color": "linear-gradient(135deg, #3b82f6, #818cf8)" }
+    ]
+  },
+  "cta": {
+    "title": "Are You Ready for Digital Transformation?",
+    "subtitle": "Join over 100 clients who trust BlazePoint to grow their business. We serve you 24/7.",
+    "primary": "Get Free Consultation",
+    "secondary": "📞 Call Us",
+    "feature1": "Free Consultation",
+    "feature2": "24h Response",
+    "feature3": "Expert Team",
+    "feature4": "24/7 Service"
+  },
+  "footer": {
+    "company": "BlazePoint",
+    "description": "Since 2011... Building digital success for businesses. 14+ years, 250+ projects, ISO 27001 certified.",
+    "newsletter": {
+      "title": "Subscribe to Our Newsletter",
+      "subtitle": "Get weekly tech tips, exclusive offers, and BlazePoint news.",
+      "placeholder": "Your email address",
+      "button": "Subscribe Now",
+      "success": "Thank you! Your email has been registered.",
+      "feature1": "Weekly Tips",
+      "feature2": "Exclusive Offers",
+      "feature3": "Cancel Anytime"
+    },
+    "quickLinks": "Quick Links",
+    "services": "Our Services",
+    "contact": "Contact Us",
+    "followUs": "Follow Us",
+    "location": "Riyadh, Saudi Arabia",
+    "copyright": "© 2026 BlazePoint. All rights reserved.",
+    "madeWith": "Made with love in Saudi Arabia",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "faq": "FAQ",
+    "backToTop": "Back to Top",
+    "serviceItems": ["Web Design", "Applications", "Digital Marketing", "Consulting"]
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "A leading Saudi company in integrated tech solutions",
+    "story": {
+      "title": "Our Story",
+      "text1": "Our journey began in 2011 as freelancers, then transformed into a more organized and professional framework in 2014 with the launch of our brand BlazePoint.",
+      "text2": "We are here to be your trusted partner in your journey of digital transformation and innovation."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "text": "A future where technology is a force for positive transformation in every aspect of business and society."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "text": "To empower businesses with the technology they need to thrive in today's digital age."
+    },
+    "gm": {
+      "title": "General Manager's Message",
+      "name": "Abed Rahman Zakaria",
+      "position": "General Manager - BlazePoint",
+      "message": "I am delighted to share a brief overview of our company. At BlazePoint, we believe that technology is the key to success in the business world."
+    },
+    "achievements": {
+      "title": "Our Achievements",
+      "award": "Best Innovative Tech Company Award 2021",
+      "iso": "ISO 27001 Certification for Information Security",
+      "partnerships": "Partnerships with Microsoft, Google Cloud, Oracle"
+    }
+  },
+  "servicesPage": {
+    "title": "Our Services",
+    "subtitle": "Integrated tech solutions to grow your business",
+    "backToServices": "Back to Services",
+    "ai": {
+      "title": "AI-Powered Tech Services",
+      "subtitle": "Smart & Automated Solutions",
+      "description": "We transform traditional tech services into smart, automated solutions to increase operational efficiency.",
+      "features": ["Business Process Automation", "AI-Powered Analytics", "Better User Experience", "Reduce Operational Costs", "Systems Integration", "Machine Learning"]
+    },
+    "cyber": {
+      "title": "Cybersecurity & Communications",
+      "subtitle": "Advanced Protection & Technical Support",
+      "description": "Comprehensive and specialized solutions in all areas of cybersecurity.",
+      "features": ["Network Protection", "Penetration Testing", "Identity & Access Management", "Incident Response", "Communications Support", "Network Infrastructure"]
+    },
+    "marketing": {
+      "title": "Digital Marketing & Creative Solutions",
+      "subtitle": "Creative solutions to grow your business",
+      "description": "Website design & development, SEO, graphic design, and social media management.",
+      "features": ["Website Design & Development", "Search Engine Optimization", "Graphic Design & Branding", "Social Media Management", "Content Creation", "Digital Advertising"]
+    }
+  },
+  "whyUs": {
+    "title": "Why Choose BlazePoint?",
+    "subtitle": "Real numbers and certified credentials make us the optimal choice",
+    "items": [
+      { "icon": "📅", "number": "+14", "title": "Years of Experience", "description": "Since 2011, delivering innovative tech solutions" },
+      { "icon": "🔒", "number": "ISO 27001", "title": "Information Security Certified", "description": "Internationally certified in information protection" },
+      { "icon": "🤝", "number": "3+", "title": "Global Partnerships", "description": "Microsoft, Google Cloud, Oracle" },
+      { "icon": "✅", "number": "+250", "title": "Completed Projects", "description": "Across government and private sectors" },
+      { "icon": "😊", "number": "+100", "title": "Happy Clients", "description": "Who trust us and recommend our services" },
+      { "icon": "🏆", "number": "2021", "title": "Best Company Award", "description": "Best Innovative Tech Company" }
+    ]
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "We are here to answer your questions and help you",
+    "formTitle": "Contact Form",
+    "email": "Email",
+    "emailValue": "info@BlazePoint.net",
+    "phone": "Phone",
+    "phoneValue": "+966-11-418368",
+    "address": "Address",
+    "addressValue": "Riyadh, Saudi Arabia",
+    "hours": "Working Hours",
+    "hoursValue": "Sunday - Thursday: 9 AM - 6 PM",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "emailField": "Email",
+    "emailPlaceholder": "email@example.com",
+    "subject": "Subject",
+    "subjectPlaceholder": "Message subject",
+    "message": "Message",
+    "messagePlaceholder": "Write your message here...",
+    "submit": "Send Message",
+    "success": "Thank you! Your message has been received and we will contact you soon."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the most common questions from our clients",
+    "items": [
+      { "question": "What are BlazePoint's areas of work?", "answer": "We provide integrated tech services including: AI-Powered Tech Services, Cybersecurity & Communications, and Digital Marketing & Creative Solutions." },
+      { "question": "How can I get a quote?", "answer": "You can contact us through the contact form, or call us directly at +966-11-418368." },
+      { "question": "Do you provide after-sales services?", "answer": "Yes, we provide continuous technical support for all our projects, with warranty on the services provided." },
+      { "question": "What is the project implementation duration?", "answer": "Duration varies by project size. Small projects: 1-2 weeks. Medium: 3-6 weeks. Large: 2-3 months." },
+      { "question": "Do you work with clients outside Saudi Arabia?", "answer": "Yes, we work with clients throughout the Arab world, and we have international partnerships." },
+      { "question": "What makes you different from competitors?", "answer": "+14 years of experience, global strategic partnerships, ISO 27001 certification, expert team, and continuous support." }
+    ]
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "خدماتنا",
+    "partners": "شركاؤنا",
+    "clients": "عملاؤنا",
+    "contact": "تواصل معنا",
+    "cta": "ابدأ الآن"
+  },
+  "hero": {
+    "slides": [
+      {
+        "id": 1,
+        "title": "من 2011...",
+        "titleHighlight": "نبني النجاح الرقمي",
+        "subtitle": "14 سنة خبرة | +250 مشروع | +100 عميل | شهادة ISO 27001",
+        "ctaPrimary": "ابدأ الآن مجاناً",
+        "ctaSecondary": "تعرّف علينا",
+        "ctaPrimaryLink": "/contact",
+        "ctaSecondaryLink": "/about",
+        "image": "/images/hero/slide-1.jpg",
+        "emoji": "🚀",
+        "color": "linear-gradient(135deg, #3b82f6 0%, #6366f1 50%, #7c3aed 100%)"
+      },
+      {
+        "id": 2,
+        "title": "حوّل عملياتك اليدوية",
+        "titleHighlight": "إلى أتمتة ذكية",
+        "subtitle": "وفّر 40% من وقت فريقك مع حلول الذكاء الاصطناعي",
+        "ctaPrimary": "اكتشف المزيد",
+        "ctaSecondary": "تواصل معنا",
+        "ctaPrimaryLink": "/services",
+        "ctaSecondaryLink": "/contact",
+        "image": "/images/hero/slide-2.jpg",
+        "emoji": "🤖",
+        "color": "linear-gradient(135deg, #60a5fa 0%, #818cf8 50%, #a78bfa 100%)"
+      },
+      {
+        "id": 3,
+        "title": "شبكتك آمنة...",
+        "titleHighlight": "حتى في أصعب الهجمات",
+        "subtitle": "حماية متقدمة بمعايير ISO 27001 لأعمالك وبياناتك",
+        "ctaPrimary": "اطلب استشارة",
+        "ctaSecondary": "تعرّف علينا",
+        "ctaPrimaryLink": "/contact",
+        "ctaSecondaryLink": "/about",
+        "image": "/images/hero/slide-3.jpg",
+        "emoji": "🛡️",
+        "color": "linear-gradient(135deg, #2563eb 0%, #4f46e5 50%, #7c3aed 100%)"
+      },
+      {
+        "id": 4,
+        "title": "تسويق ذكي...",
+        "titleHighlight": "لعملاء أكثر ومبيعات أعلى",
+        "subtitle": "استراتيجيات رقمية تحقق نتائج قابلة للقياس",
+        "ctaPrimary": "ابدأ الآن",
+        "ctaSecondary": "تواصل معنا",
+        "ctaPrimaryLink": "/contact",
+        "ctaSecondaryLink": "/contact",
+        "image": "/images/hero/slide-4.jpg",
+        "emoji": "🎨",
+        "color": "linear-gradient(135deg, #3b82f6 0%, #7c3aed 50%, #a855f7 100%)"
+      }
+    ]
+  },
+  "stats": {
+    "experience": "سنة خبرة",
+    "clients": "عميل سعيد",
+    "projects": "مشروع منجز",
+    "partners": "شركاء استراتيجيون"
+  },
+  "features": {
+    "title": "لماذا تختارنا؟",
+    "subtitle": "نقدم لك مجموعة من المميزات التي تجعلنا الخيار الأفضل لك",
+    "items": [
+      { "icon": "⚡", "title": "سرعة فائقة", "description": "أداء عالي واستجابة سريعة في جميع الأوقات" },
+      { "icon": "🔒", "title": "أمان تام", "description": "حماية كاملة لبياناتك مع أعلى معايير الأمان" },
+      { "icon": "💎", "title": "جودة عالية", "description": "خدمات احترافية بمعايير عالمية وجودة مضمونة" },
+      { "icon": "🎯", "title": "دقة متناهية", "description": "نتائج دقيقة تلبي توقعاتك وتتجاوزها" }
+    ]
+  },
+  "services": {
+    "title": "خدماتنا",
+    "subtitle": "نقدم مجموعة شاملة من الخدمات التقنية والإبداعية لتنمية أعمالك",
+    "learnMore": "اعرف المزيد",
+    "items": [
+      {
+        "icon": "🤖",
+        "title": "الخدمات التقنية بالذكاء الاصطناعي",
+        "description": "تحويل الخدمات التقليدية إلى حلول ذكية ومؤتمتة لرفع الكفاءة وتقليل التكاليف وتحسين تجربة المستخدم",
+        "features": ["أتمتة العمليات", "حلول ذكية", "تحسين تجربة المستخدم"]
+      },
+      {
+        "icon": "🛡️",
+        "title": "الأمن السيبراني والاتصالات",
+        "description": "حلول شاملة في الأمن السيبراني، حماية الشبكات، اختبار الاختراق، وإدارة الهويات والوصول",
+        "features": ["حماية الشبكات", "اختبار الاختراق", "الاستجابة للحوادث"]
+      },
+      {
+        "icon": "🎨",
+        "title": "التسويق الرقمي والحلول الإبداعية",
+        "description": "تصميم المواقع، تحسين محركات البحث، التصميم الجرافيكي، وإدارة منصات التواصل الاجتماعي",
+        "features": ["تصميم المواقع", "تحسين SEO", "إدارة السوشيال ميديا"]
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "أعمالنا",
+    "subtitle": "نماذج من مشاريعنا الناجحة في مختلف القطاعات",
+    "viewProject": "عرض المشروع",
+    "categories": {
+      "all": "الكل",
+      "tech": "حلول تقنية",
+      "apps": "تطبيقات",
+      "security": "أمن سيبراني",
+      "web": "تطوير ويب",
+      "ecommerce": "تجارة إلكترونية"
+    },
+    "items": [
+      { "title": "نظام Odoo ERP", "category": "حلول تقنية", "categoryKey": "tech", "description": "تنفيذ نظام Odoo ERP متكامل لشركة متعددة الجنسيات", "image": "💼" },
+      { "title": "تطبيق Fintech", "category": "تطبيقات", "categoryKey": "apps", "description": "تطوير تطبيق موبايل لشركة Fintech رائدة في المنطقة", "image": "📱" },
+      { "title": "حماية شبكة مؤسسة حكومية", "category": "أمن سيبراني", "categoryKey": "security", "description": "تأمين شبكة مؤسسة حكومية كبيرة وفق معايير ISO 27001", "image": "🛡️" },
+      { "title": "موقع مكتبة الملك عبدالعزيز", "category": "تطوير ويب", "categoryKey": "web", "description": "تطوير الموقع الرسمي لمكتبة الملك عبدالعزيز العامة", "image": "📚" },
+      { "title": "متجر KitchenPark الإلكتروني", "category": "تجارة إلكترونية", "categoryKey": "ecommerce", "description": "بناء متجر إلكتروني متكامل لـ KitchenPark مع نظام دفع", "image": "🛒" },
+      { "title": "نظام اتصالات موحد", "category": "حلول تقنية", "categoryKey": "tech", "description": "تنفيذ نظام اتصالات موحد لمؤسسة كبيرة متعددة الفروع", "image": "📞" }
+    ]
+  },
+  "partners": {
+    "title": "الشراكة الاستراتيجية",
+    "subtitle": "نفتخر بشراكاتنا مع أفضل الشركات العالمية لتقديم حلول تقنية متكاملة"
+  },
+  "clients": {
+    "title": "عملاؤنا - شركاء النجاح",
+    "subtitle": "نفتخر بثقة عملائنا الكرام، ونعتبر كل عميل شريكاً في رحلة النجاح",
+    "more": "و",
+    "moreClients": "عميل آخر يثقون بنا"
+  },
+  "testimonialsPage": {
+    "title": "آراء عملائنا",
+    "subtitle": "ما يقوله عملاؤنا عن خدماتنا",
+    "items": [
+      { "name": "Saad ALfahad", "position": "CEO - XYZ Corp", "message": "Blazepoint is the ultimate solution provider for all our business needs. Their team is skilled, professional, and always delivers on time.", "rating": 5, "avatar": "👨‍💼" },
+      { "name": "Norah AL Naseer", "position": "CEO - ABC Inc", "message": "We partnered with Blazepoint for developing our e-commerce website, and the results have been phenomenal.", "rating": 5, "avatar": "👩‍💼" },
+      { "name": "Mohammed Saleh", "position": "Customer Service Manager - First Dimension", "message": "Blazepoint has enhanced the quality of customer service in our organization through the implementation of a customer service management system.", "rating": 5, "avatar": "👨‍💻" },
+      { "name": "محمد العتيبي", "position": "مدير تنفيذي - شركة تقنية", "message": "فريق BlazePoint قدّم لنا حلولاً تقنية متكاملة ساعدتنا على تطوير أعمالنا بشكل كبير.", "rating": 5, "avatar": "👨‍💼" },
+      { "name": "سارة الأحمدي", "position": "مديرة التسويق - آفاق", "message": "خدمات التسويق الرقمي التي قدّمتها BlazePoint ضاعفت مبيعاتنا خلال 6 أشهر.", "rating": 5, "avatar": "👩‍💼" },
+      { "name": "ريم السالم", "position": "مديرة العمليات - متجر إلكتروني", "message": "الموقع الذي صممته BlazePoint لنا رفع مبيعاتنا بشكل ملحوظ.", "rating": 5, "avatar": "👩‍💻" }
+    ]
+  },
+  "pricing": {
+    "title": "باقاتنا",
+    "subtitle": "اختر الباقة المناسبة لأعمالك",
+    "popular": "الأكثر طلباً",
+    "perMonth": "/ شهرياً",
+    "cta": "ابدأ الآن",
+    "plans": [
+      {
+        "name": "الباقة الأساسية",
+        "price": "999",
+        "currency": "ر.س",
+        "description": "مناسبة للمشاريع الصغيرة",
+        "popular": false,
+        "features": ["موقع تعريفي (5 صفحات)", "تصميم متجاوب", "دعم فني لمدة 3 أشهر", "شهادة SSL", "استضافة سنة واحدة"]
+      },
+      {
+        "name": "الباقة الاحترافية",
+        "price": "2499",
+        "currency": "ر.س",
+        "description": "الأفضل للشركات المتوسطة",
+        "popular": true,
+        "features": ["موقع متكامل (15 صفحة)", "تصميم مخصص", "دعم فني لمدة سنة", "تحسين SEO", "شهادة SSL", "استضافة سنة واحدة", "لوحة تحكم"]
+      },
+      {
+        "name": "الباقة المؤسسية",
+        "price": "4999",
+        "currency": "ر.س",
+        "description": "للشركات الكبيرة والمؤسسات",
+        "popular": false,
+        "features": ["موقع ضخم (غير محدود)", "تصميم مخصص بالكامل", "دعم فني لمدة سنتين", "تحسين SEO متقدم", "شهادة SSL", "استضافة سنتين", "لوحة تحكم كاملة", "تكامل مع الأنظمة"]
+      }
+    ]
+  },
+  "blog": {
+    "title": "المدونة",
+    "subtitle": "مقالات وأخبار من BlazePoint",
+    "readMore": "اقرأ المزيد",
+    "items": [
+      { "title": "كيف تحمي شركتك من الهجمات السيبرانية في 2026؟", "excerpt": "دليل شامل لأهم استراتيجيات الحماية السيبرانية.", "category": "أمن سيبراني", "categoryKey": "security", "date": "20 سبتمبر 2026", "author": "فريق BlazePoint", "image": "🛡️", "color": "linear-gradient(135deg, #3b82f6, #7c3aed)" },
+      { "title": "الذكاء الاصطناعي في خدمة الأعمال: 5 تطبيقات عملية", "excerpt": "اكتشف كيف يمكن للذكاء الاصطناعي أن يُحسّن كفاءة شركتك.", "category": "ذكاء اصطناعي", "categoryKey": "ai", "date": "15 سبتمبر 2026", "author": "فريق BlazePoint", "image": "🤖", "color": "linear-gradient(135deg, #60a5fa, #a78bfa)" },
+      { "title": "أهمية تحسين محركات البحث (SEO) لعملك", "excerpt": "تعرف على أهم الاستراتيجيات لتحسين ظهور موقعك.", "category": "تسويق رقمي", "categoryKey": "marketing", "date": "10 سبتمبر 2026", "author": "فريق BlazePoint", "image": "📈", "color": "linear-gradient(135deg, #2563eb, #6366f1)" },
+      { "title": "كيف تختار نظام ERP المناسب لشركتك؟", "excerpt": "دليل عملي لاختيار نظام ERP المناسب.", "category": "حلول تقنية", "categoryKey": "tech", "date": "5 سبتمبر 2026", "author": "فريق BlazePoint", "image": "💼", "color": "linear-gradient(135deg, #4f46e5, #7c3aed)" },
+      { "title": "5 نصائح لبناء هوية بصرية قوية", "excerpt": "كيف تبني هوية بصرية مميزة تعكس قيم شركتك.", "category": "تصميم", "categoryKey": "design", "date": "1 سبتمبر 2026", "author": "فريق BlazePoint", "image": "🎨", "color": "linear-gradient(135deg, #6366f1, #a855f7)" },
+      { "title": "مستقبل الحوسبة السحابية في السعودية", "excerpt": "نظرة على تطور الحوسبة السحابية في المملكة.", "category": "حلول تقنية", "categoryKey": "tech", "date": "28 أغسطس 2026", "author": "فريق BlazePoint", "image": "☁️", "color": "linear-gradient(135deg, #3b82f6, #818cf8)" }
+    ]
+  },
+  "cta": {
+    "title": "هل أنت مستعد للتحول الرقمي؟",
+    "subtitle": "انضم إلى أكثر من 100 عميل يثقون بـ BlazePoint لتنمية أعمالهم. نخدمك على مدار الساعة 24/7.",
+    "primary": "احصل على استشارة مجانية",
+    "secondary": "📞 اتصل بنا",
+    "feature1": "استشارة مجانية",
+    "feature2": "رد خلال 24 ساعة",
+    "feature3": "فريق خبراء",
+    "feature4": "خدمة 24/7"
+  },
+  "footer": {
+    "company": "نقطة بريق",
+    "description": "من 2011... نبني النجاح الرقمي للشركات. 14 سنة خبرة، +250 مشروع، شهادة ISO 27001.",
+    "newsletter": {
+      "title": "اشترك في نشرتنا البريدية",
+      "subtitle": "احصل على نصائح تقنية أسبوعية، عروض حصرية، وأخبار BlazePoint.",
+      "placeholder": "بريدك الإلكتروني",
+      "button": "اشترك الآن",
+      "success": "شكراً! تم تسجيل بريدك بنجاح.",
+      "feature1": "نصائح أسبوعية",
+      "feature2": "عروض حصرية",
+      "feature3": "إلغاء في أي وقت"
+    },
+    "quickLinks": "روابط سريعة",
+    "services": "خدماتنا",
+    "contact": "تواصل معنا",
+    "followUs": "تابعنا",
+    "location": "الرياض، السعودية",
+    "copyright": "© 2026 نقطة بريق. جميع الحقوق محفوظة.",
+    "madeWith": "صُنع بحب في السعودية",
+    "privacy": "سياسة الخصوصية",
+    "terms": "الشروط والأحكام",
+    "faq": "الأسئلة الشائعة",
+    "backToTop": "العودة للأعلى",
+    "serviceItems": ["تصميم المواقع", "التطبيقات", "التسويق الرقمي", "الاستشارات"]
+  },
+  "about": {
+    "title": "من نحن",
+    "subtitle": "شركة سعودية رائدة في الحلول التقنية المتكاملة",
+    "story": {
+      "title": "قصتنا",
+      "text1": "بدأت رحلتنا في عام 2011 كمستقلين، ثم تحولت إلى إطار أكثر تنظيماً واحترافية في عام 2014 مع إطلاق علامتنا التجارية BlazePoint.",
+      "text2": "نحن هنا لنكون شريكك الموثوق في رحلة التحول الرقمي والابتكار."
+    },
+    "vision": {
+      "title": "رؤيتنا",
+      "text": "مستقبل تكون فيه التقنية قوة للتحول الإيجابي في كل جانب من جوانب الأعمال والمجتمع."
+    },
+    "mission": {
+      "title": "رسالتنا",
+      "text": "تمكين الشركات بالتقنية التي تحتاجها للازدهار في العصر الرقمي."
+    },
+    "gm": {
+      "title": "كلمة المدير العام",
+      "name": "عبدالرحمن زكريا",
+      "position": "المدير العام - BlazePoint",
+      "message": "يسعدني أن أشارككم نبذة عن شركتنا. في BlazePoint، نؤمن بأن التقنية هي مفتاح النجاح في عالم الأعمال."
+    },
+    "achievements": {
+      "title": "إنجازاتنا",
+      "award": "أفضل شركة تقنية مبتكرة 2021",
+      "iso": "شهادة ISO 27001 لأمن المعلومات",
+      "partnerships": "شراكات مع Microsoft, Google Cloud, Oracle"
+    }
+  },
+  "servicesPage": {
+    "title": "خدماتنا",
+    "subtitle": "حلول تقنية متكاملة لتنمية أعمالك",
+    "backToServices": "العودة للخدمات",
+    "ai": {
+      "title": "الخدمات التقنية بالذكاء الاصطناعي",
+      "subtitle": "حلول ذكية ومؤتمتة",
+      "description": "نحول الخدمات التقنية التقليدية إلى حلول ذكية ومؤتمتة لرفع الكفاءة التشغيلية.",
+      "features": ["أتمتة العمليات التجارية", "تحليلات ذكية", "تحسين تجربة المستخدم", "تقليل التكاليف", "تكامل الأنظمة", "تعلم الآلة"]
+    },
+    "cyber": {
+      "title": "الأمن السيبراني والاتصالات",
+      "subtitle": "حماية متقدمة ودعم فني",
+      "description": "حلول شاملة ومتخصصة في جميع مجالات الأمن السيبراني.",
+      "features": ["حماية الشبكات", "اختبار الاختراق", "إدارة الهويات", "الاستجابة للحوادث", "دعم الاتصالات", "البنية التحتية"]
+    },
+    "marketing": {
+      "title": "التسويق الرقمي والحلول الإبداعية",
+      "subtitle": "حلول إبداعية لنمو أعمالك",
+      "description": "تصميم وتطوير المواقع الإلكترونية، تحسين محركات البحث، التصميم الجرافيكي.",
+      "features": ["تصميم وتطوير المواقع", "تحسين SEO", "التصميم الجرافيكي", "إدارة السوشيال ميديا", "صناعة المحتوى", "الإعلانات الرقمية"]
+    }
+  },
+  "whyUs": {
+    "title": "لماذا تختار BlazePoint؟",
+    "subtitle": "أرقام حقيقية وشهادات موثقة تجعلنا الخيار الأمثل",
+    "items": [
+      { "icon": "📅", "number": "+14", "title": "سنة خبرة", "description": "منذ 2011 ونحن نقدم حلولاً تقنية مبتكرة" },
+      { "icon": "🔒", "number": "ISO 27001", "title": "شهادة أمن المعلومات", "description": "معتمدون دولياً في حماية المعلومات" },
+      { "icon": "🤝", "number": "3+", "title": "شراكات عالمية", "description": "Microsoft, Google Cloud, Oracle" },
+      { "icon": "✅", "number": "+250", "title": "مشروع منجز", "description": "في مختلف القطاعات الحكومية والخاصة" },
+      { "icon": "😊", "number": "+100", "title": "عميل سعيد", "description": "يثقون بنا ويوصون بخدماتنا" },
+      { "icon": "🏆", "number": "2021", "title": "جائزة أفضل شركة", "description": "أفضل شركة تقنية مبتكرة" }
+    ]
+  },
+  "contactPage": {
+    "title": "تواصل معنا",
+    "subtitle": "نحن هنا للإجابة على استفساراتك ومساعدتك",
+    "formTitle": "نموذج التواصل",
+    "email": "البريد الإلكتروني",
+    "emailValue": "info@BlazePoint.net",
+    "phone": "الهاتف",
+    "phoneValue": "+966-11-418368",
+    "address": "العنوان",
+    "addressValue": "الرياض، السعودية",
+    "hours": "ساعات العمل",
+    "hoursValue": "الأحد - الخميس: 9 صباحاً - 6 مساءً",
+    "name": "الاسم",
+    "namePlaceholder": "اسمك الكريم",
+    "emailField": "البريد الإلكتروني",
+    "emailPlaceholder": "email@example.com",
+    "subject": "الموضوع",
+    "subjectPlaceholder": "موضوع الرسالة",
+    "message": "الرسالة",
+    "messagePlaceholder": "اكتب رسالتك هنا...",
+    "submit": "إرسال الرسالة",
+    "success": "شكراً لك! تم استلام رسالتك وسنتواصل معك قريباً."
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "subtitle": "إجابات على أكثر الأسئلة التي يطرحها عملاؤنا",
+    "items": [
+      { "question": "ما هي مجالات عمل شركة BlazePoint؟", "answer": "نقدم خدمات تقنية متكاملة تشمل: الحلول التقنية بالذكاء الاصطناعي، الأمن السيبراني والاتصالات، والتسويق الرقمي والحلول الإبداعية." },
+      { "question": "كيف يمكنني الحصول على عرض سعر؟", "answer": "يمكنك التواصل معنا عبر نموذج التواصل، أو الاتصال بنا مباشرة على الرقم +966-11-418368." },
+      { "question": "هل تقدمون خدمات ما بعد البيع؟", "answer": "نعم، نقدم دعماً فنياً مستمراً لجميع مشاريعنا، مع ضمان على الخدمات المقدمة." },
+      { "question": "ما هي مدة تنفيذ المشروع؟", "answer": "تختلف المدة حسب حجم المشروع. المشاريع الصغيرة: 1-2 أسبوع. المتوسطة: 3-6 أسابيع. الكبيرة: 2-3 أشهر." },
+      { "question": "هل تعملون مع عملاء خارج السعودية؟", "answer": "نعم، نعمل مع عملاء في جميع أنحاء العالم العربي، ولدينا شراكات دولية مع Microsoft و Google Cloud و AWS." },
+      { "question": "ما الذي يميزكم عن المنافسين؟", "answer": "خبرة +14 سنة، شراكات استراتيجية عالمية، شهادة ISO 27001، فريق خبراء متخصص، ودعم مستمر." }
+    ]
+  }
+}
