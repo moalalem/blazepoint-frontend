@@ -28,6 +28,14 @@ const Header = () => {
   ];
 
   // ============================================
+  // الشعار حسب اللغة
+  // ============================================
+  const logoSrc = isRTL ? '/blazepoint-logo-ar.png' : '/blazepoint-logo.png';
+  const logoAlt = isRTL
+    ? 'نقطة بريق | BlazePoint'
+    : 'BlazePoint | Promising Future';
+
+  // ============================================
   // تأثير Scroll
   // ============================================
   useEffect(() => {
@@ -119,15 +127,15 @@ const Header = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20 gap-4">
 
-            {/* ============ Logo ============ */}
+            {/* ============ Logo (يتغير حسب اللغة) ============ */}
             <Link
               to="/"
               className="flex items-center gap-2 flex-shrink-0"
               aria-label="BlazePoint Home"
             >
               <img
-                src="/blazepoint-logo-ar.png"
-                alt="BlazePoint | نقطة بريق"
+                src={logoSrc}
+                alt={logoAlt}
                 className="h-14 sm:h-16 w-auto"
               />
             </Link>
