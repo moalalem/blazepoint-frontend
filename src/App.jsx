@@ -25,6 +25,7 @@ import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import BlogPage from './pages/BlogPage';
 import BlogPost from './pages/BlogPost';
+import Careers from './pages/Careers';
 
 // ============================================
 // Admin Pages
@@ -47,9 +48,7 @@ function App() {
 
       <Routes>
 
-        {/* ============================================
-            Public Routes (مع Header + Footer)
-            ============================================ */}
+        {/* Public Routes */}
         <Route
           path="/*"
           element={
@@ -66,6 +65,7 @@ function App() {
                   <Route path="/terms" element={<Terms />} />
                   <Route path="/blog" element={<BlogPage />} />
                   <Route path="/blog/:slug" element={<BlogPost />} />
+                  <Route path="/careers" element={<Careers />} />
                   <Route path="*" element={<Home />} />
                 </Routes>
               </main>
@@ -76,14 +76,10 @@ function App() {
           }
         />
 
-        {/* ============================================
-            Admin Login (بدون Header/Footer)
-            ============================================ */}
+        {/* Admin Login */}
         <Route path="/admin/login" element={<Login />} />
 
-        {/* ============================================
-            Admin Panel (محمي)
-            ============================================ */}
+        {/* Admin Panel */}
         <Route
           path="/admin"
           element={
