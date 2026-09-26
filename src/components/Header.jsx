@@ -126,7 +126,7 @@ const Header = () => {
               aria-label="BlazePoint Home"
             >
               <img
-                src="/images/blazepoint-logo-ar.png"
+                src="/blazepoint-logo-ar.png"
                 alt="BlazePoint | نقطة بريق"
                 className="h-14 sm:h-16 w-auto"
               />
