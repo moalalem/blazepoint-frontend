@@ -163,3 +163,246 @@ body {
   background-clip: text;
   color: transparent;
 }
+
+/* ============================================
+   🌙🌙🌙 DARK MODE — Global Overrides 🌙🌙🌙
+   ============================================ */
+
+/* 🔹 الخلفية العامة */
+.dark body {
+  background-color: #0f172a;   /* slate-900 */
+  color: #e2e8f0;               /* slate-200 */
+}
+
+/* 🔹 الخلفيات البيضاء → داكنة */
+.dark .bg-white {
+  background-color: #1e293b !important;   /* slate-800 */
+}
+
+.dark .bg-gray-50 {
+  background-color: #1e293b !important;
+}
+
+.dark .bg-gray-100 {
+  background-color: #1e293b !important;
+}
+
+.dark .bg-slate-50 {
+  background-color: #1e293b !important;
+}
+
+.dark .bg-slate-100 {
+  background-color: #334155 !important;
+}
+
+/* 🔹 خلفيات شبه شفافة */
+.dark .bg-white\/80 {
+  background-color: rgba(30, 41, 59, 0.8) !important;
+}
+
+.dark .bg-white\/90 {
+  background-color: rgba(30, 41, 59, 0.9) !important;
+}
+
+.dark .bg-white\/95 {
+  background-color: rgba(30, 41, 59, 0.95) !important;
+}
+
+/* 🔹 النصوص الداكنة → فاتحة */
+.dark .text-gray-900,
+.dark .text-slate-900 {
+  color: #f1f5f9 !important;   /* slate-100 */
+}
+
+.dark .text-gray-800,
+.dark .text-slate-800 {
+  color: #f1f5f9 !important;
+}
+
+.dark .text-gray-700,
+.dark .text-slate-700 {
+  color: #cbd5e1 !important;   /* slate-300 */
+}
+
+.dark .text-gray-600,
+.dark .text-slate-600 {
+  color: #cbd5e1 !important;
+}
+
+.dark .text-gray-500,
+.dark .text-slate-500 {
+  color: #94a3b8 !important;   /* slate-400 */
+}
+
+.dark .text-gray-400 {
+  color: #94a3b8 !important;
+}
+
+.dark .text-black {
+  color: #f8fafc !important;
+}
+
+/* 🔹 الحدود */
+.dark .border-gray-50,
+.dark .border-gray-100,
+.dark .border-gray-200,
+.dark .border-slate-100,
+.dark .border-slate-200 {
+  border-color: #334155 !important;   /* slate-700 */
+}
+
+.dark .border-gray-300 {
+  border-color: #475569 !important;
+}
+
+/* 🔹 الانقسامات (divide) */
+.dark .divide-gray-100 > * + *,
+.dark .divide-gray-200 > * + * {
+  border-color: #334155 !important;
+}
+
+/* 🔹 الظلال (تخفيفها في الوضع الداكن) */
+.dark .shadow-sm,
+.dark .shadow,
+.dark .shadow-md,
+.dark .shadow-lg,
+.dark .shadow-xl,
+.dark .shadow-2xl {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* 🔹 التدرجات — from-white / to-white */
+.dark .from-white {
+  --tw-gradient-from: #0f172a !important;
+  --tw-gradient-to: rgba(15, 23, 42, 0) !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
+}
+
+.dark .to-white {
+  --tw-gradient-to: #0f172a !important;
+}
+
+.dark .via-white {
+  --tw-gradient-via: #0f172a !important;
+}
+
+.dark .from-gray-50 {
+  --tw-gradient-from: #1e293b !important;
+  --tw-gradient-to: rgba(30, 41, 59, 0) !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
+}
+
+.dark .to-gray-50 {
+  --tw-gradient-to: #1e293b !important;
+}
+
+.dark .from-gray-100 {
+  --tw-gradient-from: #1e293b !important;
+}
+
+.dark .to-gray-100 {
+  --tw-gradient-to: #1e293b !important;
+}
+
+/* 🔹 البطاقات - hover */
+.dark .hover\:bg-gray-50:hover {
+  background-color: #334155 !important;
+}
+
+.dark .hover\:bg-gray-100:hover {
+  background-color: #334155 !important;
+}
+
+.dark .hover\:bg-white:hover {
+  background-color: #334155 !important;
+}
+
+/* 🔹 الحقول (inputs, textarea, select) */
+.dark input,
+.dark textarea,
+.dark select {
+  background-color: #1e293b !important;
+  color: #e2e8f0 !important;
+  border-color: #334155 !important;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #64748b !important;
+}
+
+/* 🔹 الأزرار الفاتحة */
+.dark .bg-indigo-50 {
+  background-color: #312e81 !important;
+}
+
+.dark .hover\:bg-indigo-50:hover {
+  background-color: #3730a3 !important;
+}
+
+/* 🔹 شريط التمرير في الوضع الداكن */
+.dark ::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  border-color: #1e293b;
+}
+
+.dark * {
+  scrollbar-color: #6366f1 #1e293b;
+}
+
+/* 🔹 عناصر شفافة بخلفية بيضاء (مثل شارات) */
+.dark .bg-white\/10 {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+.dark .bg-white\/20 {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* 🔹 الجداول */
+.dark table {
+  color: #e2e8f0;
+}
+
+.dark thead {
+  background-color: #1e293b !important;
+}
+
+.dark tbody tr:hover {
+  background-color: #334155 !important;
+}
+
+/* 🔹 Admin Panel — Sidebar والبطاقات */
+.dark aside,
+.dark nav {
+  border-color: #334155;
+}
+
+/* 🔹 رسائل التنبيه (Alert boxes) */
+.dark .bg-red-50 {
+  background-color: #7f1d1d !important;
+}
+
+.dark .bg-green-50 {
+  background-color: #14532d !important;
+}
+
+.dark .bg-yellow-50,
+.dark .bg-amber-50 {
+  background-color: #78350f !important;
+}
+
+.dark .bg-blue-50 {
+  background-color: #1e3a8a !important;
+}
+
+/* 🔹 التدرجات البنفسجية في العناوين - تبقى كما هي */
+
+/* 🔹 الأيقونات والرموز التعبيرية - تبقى */
+
+/* ============================================
+   🌙 نهاية Dark Mode Overrides
+   ============================================ */
