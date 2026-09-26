@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isRTL = i18n.language === 'ar';
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -148,6 +149,26 @@ const Footer = () => {
             </button>
 
           </div>
+
+          {/* ============================================ */}
+          {/* 🚀 سطر التطوير والبرمجة — جديد */}
+          {/* ============================================ */}
+          <div className="mt-4 pt-4 border-t border-white/5">
+            <p className="text-center text-xs sm:text-sm text-gray-500 dark:text-gray-400 flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
+              <span className="text-indigo-400">🚀</span>
+              <span className="font-medium">
+                {isRTL
+                  ? 'تطوير وبرمجة:'
+                  : 'Developed & Programmed by:'}
+              </span>
+              <span className="font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
+                {isRTL
+                  ? 'الاستشاري المهندس محمد العالم'
+                  : 'Consultant Eng. Mohammed Al-Alem'}
+              </span>
+            </p>
+          </div>
+
         </div>
       </div>
 
