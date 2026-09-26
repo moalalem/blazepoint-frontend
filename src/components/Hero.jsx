@@ -69,7 +69,6 @@ const Hero = () => {
         ? ['مراقبة ذكية 24/7', 'صيانة دورية', 'تطوير مستمر']
         : ['24/7 Smart Monitoring', 'Regular Maintenance', 'Continuous Development'],
     },
-    // ⬇️⬇️⬇️ السلايد الرابع (الجديد) ⬇️⬇️⬇️
     {
       id: 4,
       title: isRTL ? 'نبني حلولاً رقمية تصنع الفرق' : 'We Build Digital Solutions That Make a Difference',
@@ -125,7 +124,7 @@ const Hero = () => {
 
   return (
     <section
-      className="relative overflow-hidden bg-gradient-to-br from-indigo-600 via-purple-600 to-indigo-700 min-h-[550px] lg:min-h-[620px] flex items-center"
+      className="relative overflow-hidden bg-gradient-to-br from-indigo-600 via-purple-600 to-indigo-700 dark:from-gray-900 dark:via-indigo-950 dark:to-gray-900 min-h-[550px] lg:min-h-[620px] flex items-center"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
@@ -137,8 +136,8 @@ const Hero = () => {
           backgroundSize: '40px 40px',
         }}
       />
-      <div className="absolute top-0 -start-20 w-96 h-96 bg-purple-400/30 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 -end-20 w-96 h-96 bg-indigo-400/30 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-0 -start-20 w-96 h-96 bg-purple-400/30 dark:bg-purple-900/20 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 -end-20 w-96 h-96 bg-indigo-400/30 dark:bg-indigo-900/20 rounded-full blur-3xl pointer-events-none" />
 
       {/* زخارف نقطية */}
       <div className="absolute top-12 start-12 w-24 h-24 opacity-20 hidden lg:block">
@@ -188,7 +187,7 @@ const Hero = () => {
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8 w-full sm:w-auto">
                     <Link
                       to={slide.primaryButton.to}
-                      className="w-full sm:w-auto bg-white text-indigo-700 px-7 py-3.5 rounded-xl font-bold text-base hover:bg-indigo-50 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105"
+                      className="w-full sm:w-auto bg-white text-indigo-700 dark:bg-indigo-600 dark:text-white px-7 py-3.5 rounded-xl font-bold text-base hover:bg-indigo-50 dark:hover:bg-indigo-500 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105"
                     >
                       {slide.primaryButton.label}
                     </Link>
